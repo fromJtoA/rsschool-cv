@@ -52,7 +52,8 @@ Your task is to write such a run-length encoding. For a given string, return a l
   
   } 
   ```
-  ### **Education:**
+
+### **Education:**
 [Samara National Research University](https://ssau.ru/english)
 
 [RS School «JavaScript/Front-end. Stage 1»](https://rs.school/) (in progress)
