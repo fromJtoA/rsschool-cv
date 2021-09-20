@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+        <title>Michael Nefyodov CV</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <header class="header">
+                <section class="name_phone">
+                    <h1 class="h1">Michael Nefyodov</h1>
+                    <ul class="name_phone">
+                        <li>Telephone: 89276906121</li>
+                        <li>E-mail: mixan.rus@gmail.com</li>
+                        <li>Telegram: @justIsJ</li>
+                        <li>Github: <a
+                                href="https://github.com/fromJtoA/rsschool-cv"
+                                target="_blank"
+                                rel="noopener noreferrer">fromJtoA</a>
+                        </li>
+                    </ul>
+                </section>
+                <figure class="my_photo">
+                    <img
+                      src="imgs/photo5345964348046161990.jpg"
+                      alt="my_photo">
+                </figure>
+            </header>
+            <main>
+                <section class="about_code">
+                    <h3 class="hs">About me</h3>
+                    <p>I have different working experience. 
+                  For example I can organize sporting event for 100 people
+                  or make a plan of setting airplane`s antenna. I am an engineer now.
+                    </p>
+                    <p>
+                    Web coding is very interesting sphere for me, because
+                  I want to have actual profession and to be useful for community.
+                    </p>
+                    <h3 class="hs">Example of code</h3>
+                    <pre>
+                        <code class="javascript">
+var runLengthEncoding = function(str){
+console.log(str);
+let arr = str.split('');
+arr.push(true);
+let count = 1;
+let res = [];
+console.log(arr);
+for (let i = 0; i &lt; arr.length - 1; i++) {
+if (arr[i] === arr[i + 1]) {
+count ++;
+} else {
+res.push([count, arr[i]]);
+count = 1;
+}
+}
+return res;
+}
+                        </code>
+                    </pre>
+                </section>
+                <aside class="aside">
+                    <h3 class="hs">Skills</h3>
+                    <ul>
+                        <li>JavaScript basic</li>
+                        <li>HTML5, CSS3 basic</li>
+                        <li>Git, Github basic</li>
+                        <li>QA basic</li>
+                    </ul>
+                    <h3 class="hs">Education</h3>
+                    <p>Samara National Research University</p>
+                    <h3 class="hs">English: B1</h3>
+                </aside>
+            </main>
+            <section class="projects">
+                <h3 class="h_mid">My projects</h3>
+                <div class="links">
+                    <article class="link">
+                        <h4>Trial task QA</h4>
+                        <p>HTML, JavaScript</p>
+                        <p>modified existing web page</p>
+                        <a
+                          href="https://github.com/fromJtoA/QA"
+                          target="_blank"
+                          rel="noopener noreferrer">
+                            <img
+                          class="big_buttons"
+                          src="imgs/buttonQA.png"
+                          alt="buttonQA">
+                        </a>
+                    </article>
+                    <article class="link">
+                        <h4>Codewars</h4>
+                        <p>JavaScript</p>
+                        <p>just tasks</p>
+                        <a
+                          href="https://www.codewars.com/users/fromJtoA"
+                          target="_blank"
+                          rel="noopener noreferrer">
+                            <img
+                            class="big_buttons"
+                            src="imgs/buttonCW.png"
+                            alt="buttonCW">
+                        </a>                 
+                    </article>
+                    <article class="link">
+                        <h4>Checkio</h4>
+                        <p>Python</p>
+                        <p>just tasks</p>
+                        <a
+                          href="https://py.checkio.org/user/Ashot_one_shot/"
+                          target="_blank"
+                          rel="noopener noreferrer">
+                            <img
+                            class="big_buttons"
+                          src="imgs/buttonPy.png"
+                          alt="buttonPy">
+                        </a>
+                    </article>
+                </div>
+            </section>
+            <footer>
+                <a
+                href="https://github.com/fromJtoA"
+                target="_blank"
+                rel="noopener noreferrer">
+                    <img
+                class="footer_git"
+                src="imgs/git.png"
+                alt="git">
+                </a>
+                <a
+                href="https://rs.school/"
+                target="_blank"
+                rel="noopener noreferrer">
+                    <img
+                class="footer_rss"
+                src="imgs/logo-rsschool3.png"
+                alt="rss">
+                </a>
+                <div class="footer_2021"><p class="2021">2021</p></div>
+            </footer>
+        </div>
+        <script>console.log(`
+        вёрстка валидная 
+        10/10
+
+        вёрстка семантическая 
+        20/20
+
+        используются css-стили 
+        10/10
+
+        контент размещается в блоке, 
+        который горизонтально центрируется на странице. 
+        Фоновый цвет, если он есть, 
+        тянется во всю ширину страницы 
+        10/10
+        
+        вёрстка адаптивная: ни на одном из разрешений
+        экрана до 320px включительно не появляется 
+        горизонтальная полоса прокрутки, 
+        при этом всё содержание страницы сохраняется
+        5/10
+
+        есть адаптивное бургер-меню
+        0/10
+
+        на странице СV присутствует изображение
+        - фото или аватарка автора CV, пропорции
+        изображения не искажены, у изображения
+        есть атрибут alt (может быть пустым)
+        10/10
+
+        контакты для связи и перечень 
+        навыков оформлены в виде списка ul > li
+        10/10
+
+        CV содержит контакты, краткую информацию
+        о себе, навыки, образование, уровень английского
+        10/10
+
+        CV содержит пример вашего кода 
+        (например, решение задачи с сайта
+        codewars) с подсветкой кода
+        10/10
+
+        CV содержит изображения-ссылки на
+        выполненные вами проекты. При клике по
+        изображению страница проекта открывается в
+        новой вкладке. У каждого проекта есть название,
+        небольшое описание, указан перечень 
+        используемых технологий
+        10/10
+
+        CV выполнено на английском языке
+        10/10
+
+        выполнены требования к репозиторию:
+        есть ссылка на задание, скриншот страницы СV,
+        ссылка на деплой страницы CV на GitHub Pages,
+        указана дата дедлайна, выполнена самооценка
+        10/10
+
+        есть видеорезюме автора CV на английском языке
+        0/10
+
+        дизайн, оформление, качество выполнения CV
+        не ниже чем в примерах CV, приведённых
+        в материалах к заданию
+        5/10
+
+        итого
+        130/160
+         `)
+        </script>
+    </body>
+    
+</html>
