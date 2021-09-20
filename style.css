@@ -1,0 +1,163 @@
+body {
+    margin: 10px;
+
+    background-image: radial-gradient(ellipse, #FEFEFA, #F6F041);
+    background-image: -o-radial-gradient(ellipse, #FEFEFA, #F6F041);
+    background-image: -moz-radial-gradient(ellipse, #FEFEFA, #F6F041);
+    background-image: -webkit-radial-gradient(ellipse, #FEFEFA, #F6F041); 
+}
+@media (min-width:732px) {
+main {
+    display: flex;
+    flex-direction: row;
+}
+}
+@media (max-width:731px) {
+main {
+    display: flex;
+    flex-direction: column;
+}
+}
+p {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+}
+ul {
+    padding-left: 5px;
+}
+li {
+    list-style-type: none;
+    margin: 4px;
+}
+pre {
+    display: flex;
+    flex-wrap: wrap;
+}
+code {
+    font-family: monospace;
+}
+.wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 1200px;
+
+    margin-right: auto;
+    margin-left: auto;
+
+    background-image: radial-gradient(75% 15%, ellipse, #FEFEFA, #72E5F7);
+    background-image: -o-radial-gradient(75% 15%, ellipse, #FEFEFA, #72E5F7);
+    background-image: -moz-radial-gradient(75% 15%, ellipse, #FEFEFA, #72E5F7);
+    background-image: -webkit-radial-gradient(75% 15%, ellipse, #FEFEFA, #72E5F7); 
+    
+
+}
+.hs {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    background-color: #FEFEFA;
+    width: 200px;
+}
+
+.my_photo {
+    display: flex;
+    justify-content: flex-start;
+    order: 1;
+
+    width: 210px;
+    height: 280px;
+}
+.h1 {
+    display: flex;
+    justify-content: center;
+    font-family: verdana;
+
+
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.name_phone {
+    display: flex;
+    order: 2;
+    align-content: space-around;
+    justify-content: flex-start;
+    flex-direction: column;
+    font-size: 24px;
+}
+
+* {
+    font-family: Georgia;
+}
+.projects {
+    display: flex;
+    flex-direction: column;
+
+}
+.about_code {
+    display: flex;
+    flex-direction: column;
+    order: 2;
+}
+.links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.aside {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    order: 1;
+    margin: 5px;
+}
+.big_buttons {
+    width: 200px;
+}
+.link {
+    margin-left: 55px;
+    margin-left: 55px;
+}
+.h_mid {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    background-color: #FEFEFA;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+footer {
+    height:80px;
+    width:100%;
+
+    display: block;
+    background-color: #13B5F5;
+}
+.footer_rss {
+    height: 45px;
+    float: right;
+    margin-right: 60px;
+    margin-top: 20px;
+    
+}
+.footer_git {
+    height: 45px;
+    float: left;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.footer_2021 {
+    width: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 28px;
+}
